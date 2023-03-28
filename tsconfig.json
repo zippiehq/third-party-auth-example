@@ -1,0 +1,12 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./build",
+    "paths": {
+      "crypto": ["node_modules/crypto-browserify"]
+    }
+  },
+  "include": ["src", "src/index.tsx"],
+  "exclude": ["node_modules"]
+}
